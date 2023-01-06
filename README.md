@@ -1,2 +1,7 @@
 # Reverse-string-
-JS code for reversing a string 
+
+
+function reverseString(str) {
+ return str.split('').reverse().join('');
+}
+reverseString('string'); // "gnirts"
